@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+<meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="/materializeV1/materialize/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      
+<style>
+.css-selector-pcard {
+    background: linear-gradient(270deg, #00ffeb, #00ff0a);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+.css-selector-background {
+    background: linear-gradient(270deg, #032181, #000000);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+body {
+    background: linear-gradient(270deg, #032181, #000000);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+.css-selector-space-d {
+    background: linear-gradient(270deg, #003eff, #ac001d);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+.css-selector-space {
+    background: linear-gradient(270deg, #00f2ff, #0020d0);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+
+.css-selector-adjust {
+    background: linear-gradient(270deg, #f70000, #00a4b6);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+.css-selector-expand {
+    background: linear-gradient(270deg, #34dde6, #002cb6);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+.css-selector-footer {
+    background: linear-gradient(270deg, #385fff, #11b600);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+.css-selector-start {
+    background: linear-gradient(270deg, #4461d5, #00ff20);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+
+.css-selector-E {
+    background: linear-gradient(270deg, #00ffeb, #ff0000);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+.css-selector-P {
+    background: linear-gradient(270deg, #4900ff, #00b9ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+.css-selector-PE {
+    background: linear-gradient(270deg, #00ffbe, #eeff00);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+.css-selector-selected {
+    background: linear-gradient(270deg, #0020d0, #00f2ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.tab a:focus, .tabs .tab a:focus.active {
+    background-color: transparent;
+    outline: none;
+}
+
+/* materializze */
+.tabs .tab a {
+color: #3f51b5;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+color: #3f51b5;
+}
+.tabs .indicator {
+/*color: #3f51b5;*/
+color: #18ffff;
+/*background-color: #3f51b5;*/
+background-color: #18ffff;
+}
+/* materializze */
+/* footbar */
+#logobot {
+
+    width: 45px;
+    height: 45px;
+    
+    }
+#ann1 {
+    
+    width: 43px;
+    bottom: 2px;
+    right: 14px;
+    }
+.input-field input[type=search] {
+margin: 0px;
+}    
+#btcon1 {
+    position: relative;
+    top: 2px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 3px;
+}
+#cardmaterias {
+    margin: 8%;
+}
+#opendrop {
+    font-size: 3rem;
+}
+#materimagen {
+max-height: 200px;
+}
+#forprofile {
+font-size: 22px;
+}
+
+#icofot {
+    position: relative;
+    top: 3%;
+    font-size: 33px;
+    color: #7986cb;
+}
+
+#icofotF {
+    position: relative;
+    top: 3%;
+    font-size: 33px;
+    color: #ffffff;
+}
+#tabtitle {
+    position: relative;
+    font-size: 10px;
+    top: -58%;
+}
+/* footbar */
+/* body */
+.bod {
+    /*height: 92.5vh;*/
+    height: 93%;
+    position: fixed;
+    top: 0vh;
+    overflow-y: auto;
+    padding-top: 8%;
+    z-index: -1;
+}
+.col{
+    padding: 0px;
+}
+#spectab {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    z-index: 99;
+    margin-top: 0.5px;
+}
+#aclass {
+    height: 211%;
+    display: inline-block;
+    margin-left: 1%;
+}
+#cardmat {
+width: 155px; 
+}
+#titlecard {
+font-size: 15px;
+}
+/* body */
+/* profecard */
+#colaphead {
+    min-height: 5rem;
+    padding-top: 13px;
+}
+#profilepic {
+    width: 85px;
+    position: relative;
+    top: -4px;
+}    
+#principalgradeup {
+    color: blue;
+}
+#costo {
+color: #bdbdbd; 
+position: relative;
+left: -68px;
+height: 20px;
+top: -8px;
+}
+#principalgrade {
+    color: blue;
+    font-size: 3rem;
+}
+#grade1 {
+    color: #3f51b5;
+}
+#grade2 {
+    color: yellow;
+}
+#grade3 {
+    color: red;
+}
+#colab {
+    margin-bottom: -7px;
+}
+#metodostabs {
+    margin-bottom: 0px;
+}
+/* profecard */
+/* carousell */
+.carousel.carousel-slider {
+height: 100%;
+}
+.carousel .indicators .indicator-item {
+background-color: #167ac6;
+}
+.carousel .indicators .indicator-item.active {
+background-color: rgba(27,127,204,.8);
+}
+/* carousell */
+
+#dropdown1 {
+  left: 0px; 
+  width: 90%;
+}
+
+.imagenmaterias {
+filter: brightness(60%);
+}
+
+#imagenexp {
+filter: brightness(55%);
+}
+
+#cardexpi {
+margin-left: 15px;
+position: absolute;
+bottom: 83%;
+right: 20px;
+font-size: 40px;
+color: #2196f3;
+}
+
+#cardexpii {
+margin-right: 15px;
+position: absolute;
+bottom: 83%;
+left: 20px;
+font-size: 40px;
+color: #2196f3;
+}
+
+#chipi {
+position: relative;
+top: 30px;
+}
+
+#rotating { 
+    font-size: xx-large;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.rotated { 
+    transform:rotate(90deg); 
+    -webkit-transform:rotate(180deg); 
+    -moz-transform:rotate(180deg); 
+    -o-transform:rotate(180deg); 
+}
+
+.header_log {
+  /* Location of the image */
+  background-image: url(/images/apolo.gif);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  /*background-attachment: fixed;*/
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+.card_plan_img{
+    width: 70%;
+}
+
+.video-background { /* class name used in javascript too */
+    /*width: 100%; /* width needs to be set to 100% */
+    height: 100%; /* height needs to be set to 100% */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+</style>      
+<title>Desarrollo de livestream</title>
+</head>
+<body class="css-selector-background" style="background: linear-gradient(270deg, #032181, #000000);">
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="/materializeV1/materialize/js/materialize.min.js"></script>
+       
+
+  
+  
+  
+      
+      
+      <!--footbar-->
+  <div id="footApp" class="row" style="margin: 0px; position: absolute; bottom: 0.2%; z-index: 999; width: 100vw;">
+  <div class="divider"></div>
+    <div class="col s12 center-align" style="padding: 0px;">
+      <ul id="tabs_footer" class="tabs center-align css-selector-space " style="overflow: hidden;">
+        <li class="tab"><a id="btn-tab1" class="N/A" href="#test1"><i id="icofotF" class="material-icons">person</i><h6 class="white-text" id="tabtitle">Perfíl</h6></a></li>
+        <li class="tab"><a id="btn-tab2" class="N/A" href="#test2"><i id="icofotF" class="material-icons">search</i><h6 class="white-text" id="tabtitle">explora</h6></a></li>
+        <li class="tab center-align"><a id="btn-tab3" class="btn-floating btn-large waves-effect waves-light white active" href="#test3" style="padding-left: 5px; padding-right: 5px; width: 65%; margin-left: auto; margin-right: auto;"><i id="" class="material-icons blue-text">add</i></a></li>
+        <li class="tab"><a id="btn-tab4" class="N/A" href="#test4"><i id="icofotF" class="material-icons">chat_bubble</i><h6 class="white-text" id="tabtitle">push</h6></a></li>
+        <li class="tab"><a id="btn-tab5" class="N/A" href="#test5"><i id="icofotF" class="material-icons">home</i><h6 class="white-text" id="tabtitle">home</h6></a></li>
+      </ul>
+    </div>
+  </div>
+      <!--footbar-->
+      
+      <!--carousel-->      
+      
+  <div class="carousel carousel-slider center" style="height: 100vh;">
+    <div class="carousel-fixed-item center">
+        
+        
+        
+    </div>
+    <div class="carousel-item red white-text" href="#one!">
+      <video class="video-background" loop autoplay="true" muted="muted" src="/images/video_background.mp4"></video>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Second Panel</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Third Panel</h2>
+      <p class="white-text">This is your third panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">This is your fourth panel</p>
+    </div>
+  </div>      
+
+      <!--carousel-->  
+
+        
+           <!--Modals--> 
+<script>            
+  $(document).ready(function(){
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: false
+      });
+  });   
+  
+</script>            
+
+ 
+</body>
+</html>
